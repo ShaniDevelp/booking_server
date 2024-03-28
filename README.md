@@ -34,7 +34,7 @@ Create an .env file in the root directory of the project to store environment va
 
 plaintext
 Copy code
-PORT=3000
+PORT=8000
 MONGODB_URI=mongodb://localhost:27017/hotel-booking
 Adjust the values as needed for your development environment. Ensure you have MongoDB installed and running locally.
 
