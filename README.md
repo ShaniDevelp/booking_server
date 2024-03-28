@@ -46,6 +46,9 @@ Copy code
 npm run start
 The server should now be running on the specified port (default is 3000) and connected to your MongoDB database.
 
+# 5. Add your own Rooms data
+This is important step to run the application:
+
 # API Endpoints
 The backend provides the following API endpoints for the hotel booking website:
 
