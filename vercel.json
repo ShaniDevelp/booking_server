@@ -1,0 +1,43 @@
+
+{
+    "builds": [
+      {
+        "src": "/src/index.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "./build/**",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/user",
+        "dest": "src/index.js"
+      },
+      {
+        "src": "/user/(.*)",
+        "dest": "src/index.js"
+      },
+      {
+        "src": "/booking",
+        "dest": "src/index.js"
+      },
+      {
+        "src": "/booking/(.*)",
+        "dest": "src/index.js"
+      },
+      {
+        "src": "/room",
+        "dest": "/src/index.js"
+      },
+      {
+        "src": "/room/(.*)",
+        "dest": "src/index.js"
+      },
+      {
+        "src": "/",
+        "dest": "src/index.js"
+      }
+    ]
+}
